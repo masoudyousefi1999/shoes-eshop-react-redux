@@ -1,0 +1,187 @@
+.topsale-intro{
+    margin: 3rem;
+    color: rgb(22, 22, 22);
+    font-size: 3rem;
+}
+
+.topsale-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.topsale-box-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border-radius: 15px;
+    gap: 10px;
+    transition: scale .5s;
+}
+
+.topsale-box-item:hover{
+    scale: 1.1;
+}
+
+.topsale-image{
+    width: 15rem;
+    height: 9rem;
+}
+
+.topsale-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.topsale-h1{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.topsale-h2{
+    font-size: 1rem;
+    color: white;
+}
+
+.top-sale-bag{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tops-sale-btn{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.topsale-rating{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.topsale-price{
+    background-color: white;
+    color: rgb(22, 22, 22);
+    border-radius: 5px;
+    font-size: .9rem;
+
+}
+
+.topsale-rating-rate{
+    display: flex;
+    align-items: center;
+}
+
+.topsale-buy{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.blue{
+    background: linear-gradient(45deg,rgba(40,173,222,1) ,rgb(27,76,224) );
+    box-shadow: 0px 6px 16px 0px rgb(27,76,224);
+}
+
+.red{
+    background: linear-gradient(45deg,#ef4444 ,#f43f5e );
+    box-shadow: 0px 6px 16px 0px #f43f5e;
+}
+
+.purple{
+    background: linear-gradient(45deg,#22c55e ,#10b981 );
+    box-shadow: 0px 6px 16px 0px #10b981;
+}
+.green{
+    background: linear-gradient(45deg,#22c55e ,#10b981 );
+    box-shadow: 0px 6px 16px 0px #10b981;
+}
+
+.orange{
+    background: linear-gradient(45deg,#f97316 ,#f59e0b );
+    box-shadow: 0px 6px 16px 0px #f59e0b;
+}
+
+.dark-orange{
+    background: linear-gradient(0deg,#eab308 ,#111827 );
+    box-shadow: 0px 6px 16px 0px #eab308;
+}
+
+.light-blue{
+    background: linear-gradient(45deg,#3b82f6 ,#06b6d4 );
+    box-shadow: 0px 6px 16px 0px #06b6d4;
+}
+
+.yello{
+    background: linear-gradient(45deg,#eab308 ,#eab308 );
+    box-shadow: 0px 6px 16px 0px #eab308;
+}
+
+.brown{
+    background: linear-gradient(45deg,#936550 ,#7c2d12 );
+    box-shadow: 0px 6px 16px 0px #7c2d12;
+}
+
+.dark-blue{
+    background: linear-gradient(45deg,#4338ca ,#4338ca );
+    box-shadow: 0px 6px 16px 0px #4338ca;
+}
+
+.green-light{
+    background: linear-gradient(45deg,#16a34a ,#84cc16 );
+    box-shadow: 0px 6px 16px 0px #84cc16;
+}
+
+.black-shoe{
+    background: linear-gradient(45deg,#0f172a ,#000 );
+    box-shadow: 0px 6px 16px 0px #000;
+}
+
+.dark-blue{
+    background: linear-gradient(45deg,#1e3a8a ,#3b82f6 );
+    box-shadow: 0px 6px 16px 0px #3b82f6;
+}
+
+
+@media screen and (max-width : 991px) {
+    .topsale-intro{
+        margin: 2rem;
+        color: rgb(22, 22, 22);
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .topsale-intro{
+        margin: 1.3rem;
+        color: rgb(22, 22, 22);
+        font-size: 1.6rem;
+    }
+    
+}
+
+@media screen and (max-width : 550px) {
+    .topsale-intro{
+        margin: 1rem;
+        color: rgb(22, 22, 22);
+        font-size: 1.5rem;
+    }
+    .topsale-box-item{
+        padding: 1rem 2rem;
+    }
+    .topsale-image{
+        width: 18rem;
+        height: 10rem;
+    }
+}

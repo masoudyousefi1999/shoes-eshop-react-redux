@@ -1,0 +1,53 @@
+footer{
+    background: linear-gradient(.2deg,rgba(40,173,222,1) 4.8%,rgb(27,76,224) 85.5%);
+}
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    
+}
+
+.about,.get-help,.company{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+    color: white;
+}
+
+footer span{
+    color: white;
+    font-size: .9rem;
+}
+.footer-header-text{
+    margin-bottom: 10px;
+}
+
+.copy-right{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+@media screen and (max-width : 550px) {
+    .about,.get-help,.company{
+       font-size:.8rem;
+    }
+    
+    footer span{
+        font-size: .7rem;
+    }
+    
+    .copy-right{
+        font-size: .9rem;
+        margin: .3rem 0;
+        text-wrap: nowrap;
+    }
+}
